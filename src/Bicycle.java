@@ -11,11 +11,9 @@ public class Bicycle extends Transport{
 
     @Override
     public void checkEngine() {
-
     }
 
     @Override
     public void checkTrailer() {
-
     }
 }

@@ -14,6 +14,10 @@ public class Main {
 //            truck.wheelsCount = 6;
 //            truck2.wheelsCount = 8;
 
+//            Bicycle [] bicycles = {
+//                    new Bicycle("Kona", 2),
+//                    new Bicycle("Scott", 2)
+//            };
             Bicycle bicycle = new Bicycle("Kona", 2);
             Bicycle bicycle2 = new Bicycle("Scott", 2);
 //            bicycle.modelName = "bicycle1";
@@ -22,11 +26,11 @@ public class Main {
 //            bicycle2.wheelsCount = 2;
 
             ServiceStation station = new ServiceStation();
-            station.check(car, null, null);
-            station.check(car2, null, null);
-            station.check(null, bicycle, null);
-            station.check(null, bicycle2, null);
-            station.check(null, null, truck);
-            station.check(null, null, truck2);
+            station.check(car);
+            station.check(car2);
+            station.check( bicycle);
+            station.check( bicycle2);
+            station.check(truck);
+            station.check(truck2);
         }
     }
