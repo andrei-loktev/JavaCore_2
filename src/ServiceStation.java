@@ -1,7 +1,5 @@
 public class ServiceStation {
-    public void check(Service service){
-        service.updateTyre();
-        service.checkEngine();
-        service.checkTrailer();
-    }
+        public void check (Serviceable serviceable){
+                serviceable.doService();
+        }
 }
